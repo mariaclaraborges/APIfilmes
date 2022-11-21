@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Search Website</title>
+    <!--CSS-->
+    <link rel="stylesheet" href="main.css">
+    <!--font awesome icons cdn-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="wrapper">
+        <!--LOGO-->
+        <div class="logo">
+            <div class="container">
+                <!-- <p><img src="movie.png"></p> -->
+                <p>Movie<span>Corn.</span></p>
+            </div>
+        </div>
+        <!--SEARCH CONTAINER-->
+        <div class="search-container">
+            <div class="search-element">
+                <h3>Search Movie: </h3>
+                <input type="text" class="form-control" placeholder="Search Movie Title" id="movie-search-box">
+
+                <div class="search-list" id="search-list">
+                    <div class="search-list-item">
+                        <div class="search-item-thumbnail">
+                            <img src="filme.jpeg">
+                        </div>
+                        <div class="search-item-info">
+                            <h3>Interstellar</h3>
+                            <p>2014</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--RESULT CONTAINER-->
+        <div class="container">
+            <div class="result-container">
+                <div class="result-grid" id="result-grid">
+                    <!--MOVIE INFORMATION-->
+                    <div class="movie-poster">
+                        <img src="filme.jpeg" alt="movie-poster">
+                    </div>
+                    <div class="movie-info">
+                        <h3 class="movie-title">Interstellar</h3>
+                        <ul class="movie-misc-info">
+                            <li class="year">Year: 2014</li>
+                            <li class="rated">Ratings: PG-13</li>
+                            <li class="year">Released: 26 October 2014</li>
+                        </ul>
+                        <p class="genre"><b>Genre: </b> Science Fiction, Drama</p>
+                        <p class="writer"><b>Writer: </b> Jonathan Nolan, Christopher Nolan</p>
+                        <p class="actors"><b>Actors: </b>Matthew McConaughey, Anne Hathaway, Jessica Chastain</p>
+                        <p class="plot"><b>Plot: </b> Earth's future has been riddled by disasters, famines, and droughts. There is only one way to ensure mankind's survival: Interstellar travel. A newly discovered wormhole in the far reaches of our solar system allows a team of astronauts to go where no man has gone before, a planet that may have the right environment to sustain human life.</p>
+                        <p class="language"><b>Language: </b> English</p>
+                        <p class="awards"><b><i class="fas fa-award"></i></b> Nominated for 5 Oscars</p>
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--SCRIPT-->
+    <script src="movie.js"></script>
+</body>
+</html>
